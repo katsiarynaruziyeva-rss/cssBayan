@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+html, body {
+	background-color: #c1bebc;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+li {
+	list-style-type: none;
+}
+
+input {
+	display: none;
+}
+
+input + label {
+	cursor: pointer;
+}
+
+input:checked + label {
+	color: #000;
+}
+
+.container {
+	max-width: 70%;
+	margin: 5rem auto;
+}
